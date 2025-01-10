@@ -1,0 +1,123 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.header {
+    background-color: #d9f2ff;
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    background-color: #d9f2ff;
+    padding: 10px 20px;
+}
+
+.header-text {
+    flex: 1;
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.header-text p {
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+
+.logo {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-right: 10px solid #ccc;
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    display: block;
+    background-color: #ff4d4d;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.sidebar ul li a:hover {
+    background-color: #cc0000;
+}
+
+.content {
+    width: 70%;
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #d9f2ff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
